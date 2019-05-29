@@ -20,7 +20,7 @@ def generate_field():
     #Setup the screen
     window = t.Screen()
     window.setup(640, 540)
-    window.title('Towers of Hanoi')
+    window.title('Tower of Hanoi')
 
     #Register the shapes
     window.register_shape('./gifs/stuct.gif')
